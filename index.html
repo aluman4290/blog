@@ -1,117 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <title>Blog Personal</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog Personal</title>
+    <style> body, h1, h2, h3, h4, h5 {
+        font-family: "Raleway", sans-serif
+    } </style>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+<div class="grid-container">
     <!-- Header -->
     <header class="header">
-        <h1><b>Mis Aventuras en el Viaje de una Vida</b></h1>
-        <h3>Un Encuentro con la <span>Naturaleza</span></h3>
+        <h2><b>Mis Aventuras en el Viaje de una Vida</b></h2>
+        <p>Un Encuentro con la <span class="span_header">Naturaleza</span></p>
     </header>
 
-    <div class="grid-container">
+    <div class="left"></div>
 
-        <!-- Blog entries -->
-        <section class="middle">
-            <!-- Blog entry 1-->
-            <div class="card">
-
-                <img src="/img/woods.jpg" alt="Nature" style="width:100%">
-                <h2 class="card-title">Preparativos y Emoción Incontenible</h2>
-                <h5>Empieza todo <span class="">April 2, 2023</span></h5>
-                <p class="card-text"> Desde hace meses, había estado planeando mi escapada. Investigué destinos, empacé
-                    mi
-                    mochila con sumo cuidado, y me preparé física y mentalmente para lo que vendría. Finalmente, llegó
-                    el
-                    día en que emprendí mi viaje hacia las majestuosas montañas de la región de los Andes, en América
+    <!-- Blog entries -->
+    <div class="middle">
+        <!-- Blog entry 1-->
+        <article class="article">
+            <img src="/img/woods.jpg" alt="Nature" class="article_img">
+            <div class="article_container">
+                <h2>Preparativos y Emoción Incontenible</h2>
+                <h5>Empieza todo <span>April 2, 2023</span></h5>
+                <p> Desde hace meses, había estado planeando mi escapada. Investigué destinos, empacé
+                    mi mochila con sumo cuidado, y me preparé física y mentalmente para lo que vendría. Finalmente,
+                    llegó el día en que emprendí mi viaje hacia las majestuosas montañas de la región de los Andes, en
+                    América
                     del
                     Sur. Mientras me dirigía hacia mi destino, una mezcla de emoción y nerviosismo se apoderó de mí.
                     ¿Qué
                     desafíos me esperarían? ¿Qué tesoros naturales descubriría? No tenía respuestas, pero una cosa era
                     segura: estaba listo para abrazar lo desconocido.</p>
-                <div class="">
-                    <p>
-                        <button class=""><b>READ MORE &raquo;</b></button>
-                    </p>
-                </div>
             </div>
-
-
-            <!-- Blog entry 2-->
-            <article class="card">
-                <img src="/img/bridge.jpg" alt="Nature" style="width:100%">
-                <h2 class="card-title">La Magia de la Montaña</h2>
-                <h5>Los origines... <span class="w3-opacity">April 12, 2023</span></h5>
-                <p class="card-text"> Al llegar a las montañas, me encontré rodeado de una belleza abrumadora.
-                    La magnitud
-                    de las montañas, los picos cubiertos de nieve, los valles verdes y los ríos cristalinos eran
-                    simplemente
-                    impresionantes. A medida que ascendía, cada paso me acercaba más a la cima y a la verdadera
-                    esencia de
-                    la naturaleza. Caminar durante horas me permitió desconectar del estrés de la vida
-                    cotidiana. El sonido
-                    del viento y el canto de los pájaros reemplazaron el ruido de la ciudad. Cada bocanada de
-                    aire fresco
-                    revitalizaba mi espíritu. </p>
-                <div class="">
-                    <p>
-                        <button class=""><b>READ MORE &raquo;</b></button>
-                    </p>
-                </div>
-            </article>
-        </section>
-
-        <!-- Populars Posts -->
-        <section class="right">
-            <!-- About Card -->
-            <div>
-                <img src="/img/avatar_g.jpg" style="width:100%" alt="">
-                <div class="">
-                    <h4><b>My Name</b></h4>
-                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and an
-                        interest
-                        of
-                        lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
-                </div>
+            <div class="article_container">
+                <p>
+                    <button><b>READ MORE &raquo;</b></button>
+                </p>
             </div>
-            <div class="">
-                <div class="">
-                    <h4>Popular Posts</h4>
-                </div>
-                <ul class="">
-                    <li class="">
-                        <img src="/img/workshop.jpg" alt="Image" class="" style="width:50px">
-                        <span class="">El Encuentro Inolvidable</span><br>
-                        <span></span>
-                    </li>
-                    <li class="">
-                        <img src="/img/gondol.jpg" alt="Image" class="" style="width:50px">
-                        <span class="">Reflexiones y Gratitud</span><br>
-                        <span>En el tercer día de mi travesía...</span>
-                    </li>
-                    <li class="">
-                        <img src="/img/skies.jpg" alt="Image" class="" style="width:50px">
-                        <span class="">Dorum</span><br>
-                        <span>A medida que mi viaje llegaba a su fin...</span>
-                    </li>
-                    <li class="">
-                        <img src="/img/rock.jpg" alt="Image" class="" style="width:50px">
-                        <span class="">Mingsum</span><br>
-                        <span>Lorem ipsum dipsum</span>
-                    </li>
-                </ul>
+        </article>
+
+        <!-- Blog entry 2-->
+        <article class="article">
+            <img src="/img/bridge.jpg" alt="Nature" class="article_img">
+            <div class="article_container">
+                <h2>La Magia de la Montaña</h2>
+                <h5>Los origines... <span>April 12, 2023</span></h5>
+                <p> Al llegar a las montañas, me encontré rodeado de una belleza abrumadora.
+                    La magnitud de las montañas, los picos cubiertos de nieve, los valles verdes y los ríos cristalinos
+                    eran simplemente impresionantes. A medida que ascendía, cada paso me acercaba más a la cima y a la
+                    verdadera esencia de la naturaleza. Caminar durante horas me permitió desconectar del estrés de la
+                    vida cotidiana. El sonido del viento y el canto de los pájaros reemplazaron el ruido de la ciudad.
+                    Cada bocanada de aire fresco0 revitalizaba mi espíritu. </p>
             </div>
-        </section>
+            <div class="article_container">
+                <p>
+                    <button><b>READ MORE &raquo;</b></button>
+                </p>
+            </div>
+        </article>
     </div>
-    <footer class="footer">
-        <p>Copyright Tots els drets reservats </p>
-    </footer>
+    <!-- Populars Posts -->
+    <div class="right">
+        <!-- About Card -->
+        <div class="about-card">
+            <img src="/img/avatar_g.jpg" alt="Avatar" class="article_img">
+            <div class="about-card-content">
+                <h3><b>My Name</b></h3>
+                <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and an
+                    interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+            </div>
+        </div>
+        <div class="popular-post">
+            <div>
+                <h4>Posts Populares</h4>
+            </div>
+            <ul class="ul">
+                <li class="li">
+                    <img src="/img/workshop.jpg" alt="Image" class="li-img">
+                    <span>El Encuentro Inolvidable</span><br>
+                    <span>Lorem ipsum dipsum</span>
+                </li>
+                <li class="li">
+                    <img src="/img/gondol.jpg" alt="Image" class="li-img">
+                    <span>Reflexiones y Gratitud</span><br>
+                    <span>En el tercer día de mi travesía...</span>
+                </li>
+                <li class="li">
+                    <img src="/img/skies.jpg" alt="Image" class="li-img">
+                    <span class="">Dorum</span><br>
+                    <span>A medida que mi viaje llegaba a su fin...</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <footer>
+            <p>Copyright Tots els drets reservats </p>
+        </footer>
+    </div>
+
+</div>
 </body>
 
 </html>
